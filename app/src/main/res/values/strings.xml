@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Profile Info</string>
+    <string name="email_hint">Enter email</string>
+    <string name="username_hint">Enter username</string>
+    <string name="first_name_hint">Enter first name</string>
+    <string name="last_name_hint">Enter last name</string>
+    <string name="age_hint">Age</string>
+    <string name="save_text">Save</string>
+    <string name="clear_text">Clear</string>
+</resources>
