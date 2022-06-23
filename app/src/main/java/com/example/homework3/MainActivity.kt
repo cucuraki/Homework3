@@ -16,11 +16,7 @@ class MainActivity : AppCompatActivity() {
             checkOnSaveButtonClick()
         }
         binding.clearButton.setOnLongClickListener{
-            binding.age.text = null
-            binding.lastName.text = null
-            binding.firstName.text = null
-            binding.userName.text = null
-            binding.email.text = null
+            clearLines()
             return@setOnLongClickListener true
         }
     }
@@ -54,7 +50,13 @@ class MainActivity : AppCompatActivity() {
             myToast("Age should be an integer")
         }
     }
-
+    private fun clearLines(){
+        binding.age.text = null
+        binding.lastName.text = null
+        binding.firstName.text = null
+        binding.userName.text = null
+        binding.email.text = null
+    }
     private fun myToast(text: String){
         Toast.makeText(applicationContext, text, Toast.LENGTH_LONG).show()
     }
