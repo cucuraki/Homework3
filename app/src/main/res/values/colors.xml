@@ -11,4 +11,5 @@
     <color name="text_dark_liver">#484349</color>
     <color name="button_light_green">#109648</color>
     <color name="red">#ff0000</color>
+    <color name="hint_gray">#C7C7CD</color>
 </resources>
